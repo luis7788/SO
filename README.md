@@ -14,7 +14,6 @@ Implementação de um Serviço de Indexação e Pesquisa de documentos texto gua
 Para compilar o servidor e o cliente, basta fazer:
 
 ```console
-$ cd SO
 $ make
 ```
 
@@ -36,7 +35,7 @@ $ ./dclient -d chave
 $ ./dclient -s palavra-chave nr_processos
 $ ./dclient -l chave palavra-chave
 $ ./dclient -f 
-$ ./dclient -b
+$ ./dclient -b path
 ```
 
 O cliente tem várias opções, como podem ver acima. Para mais informações sobre o funcionamento do cliente, podem consultar o [relatório](Relatório_SO.pdf) do projeto.
@@ -65,7 +64,6 @@ To compile the server and client, just do:
 
 ```console
 $ cd SO
-$ make
 ```
 ### Main program
 To run the server, just do:
@@ -83,7 +81,7 @@ $ ./dclient -d key
 $ ./dclient -s keyword nr_processes
 $ ./dclient -l key keyword
 $ ./dclient -f 
-$ ./dclient -b
+$ ./dclient -b path
 ```
 The client has several options, as you can see above. For more information on how the client works, you can check the [report](Relatório_SO.pdf) of the project.
 ### Remove files
